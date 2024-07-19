@@ -24,7 +24,7 @@ body {
   align-items: center;
   text-align: center;
   flex-direction: column;
-  padding-top: 105px;
+  padding-top: 40px;
   width: 100%;
   height: 100vh;
 }
@@ -51,7 +51,6 @@ body {
   font-weight: 400;
 }
 
-
 .button {
   display: flex;
   justify-content: center;
@@ -61,10 +60,31 @@ body {
 
 }
 
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer h1 {
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.footer img {
+  width: 30px;
+  margin-bottom: 10px;
+}
+
 .button img, svg {
   width: 40px;
   height: 40px;
-  margin-right: 10px;
 }
 
 .button a {
