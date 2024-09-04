@@ -56,7 +56,7 @@ body {
 
 .blur {
   width: 100%;
-  box-shadow: rgb(0 0 0 / 20%) 0px 0px 20px 20px;
+  box-shadow: rgb(2 34 71) 0px 0px 20px 20px;
 }
 
 .button {
@@ -80,12 +80,12 @@ body {
 }
 
 .animation {
-  animation: pulse 2s ease-in-out infinite;
+  animation: pulse 1.2s ease-in-out infinite;
 }
 
 @keyframes pulse { 
   0% {transform: scale(1);}
-  50% {transform: scale(1.05);}
+  50% {transform: scale(1.07);}
   100% {transform: scale(1);}
 }
 
@@ -130,10 +130,10 @@ body {
 .cota ul li {
   background-color: #022247;
   width: 17%;
-  font-size: 2dvw;
+  font-size: 2.4dvw;
   list-style: none;
   border-radius: 5px;
-  padding: 2px;
+  padding: 4px;
   margin: 1px 0;
   user-select: none;
 }
@@ -190,14 +190,14 @@ body {
   justify-content: center;
   align-items: start;
   width: 80%;
-  margin: 5px 0;
+  margin: 10px 0;
 }
 
 .whatsapp ul li {
   display: flex;
   align-items: center;
   list-style: none;
-  font-size: 10px;
+  font-size: 16px;
 }
 
 .whatsapp ul li img {
@@ -221,8 +221,8 @@ body {
 
 .grupo {
   position: fixed;
-  bottom: 0;
-  right: 0;
+  bottom: -20px;
+  right: -20px;
 }
 
 .grupo img {
@@ -230,7 +230,7 @@ body {
 }
 
 .move {
-  animation: moveButton 1s ease-in-out infinite alternate;
+  animation: moveButton 0.6s ease-in-out infinite alternate;
 }
 
 /* Definição da animação */
@@ -239,6 +239,6 @@ body {
     transform: translateY(0);
   }
   100% {
-    transform: translateY(-5px);
+    transform: translateY(-20px);
   }
 }
